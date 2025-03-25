@@ -1,0 +1,50 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+p{
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  font-weight: 500;
+  color: chocolate;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  border-radius: 40px;
+  flex-direction: row;
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+.container.dark {
+  background-color: black;
+  color: white;
+}
+
+.container.dark.toggle-btn {
+  background-color: greenyellow;
+}
+
+.name-input {
+  width: 150px;
+  height: 40px;
+}
+
+::placeholder{
+  text-align: center;
+}
+
+.togglr-btn {
+  text-align: center;
+  color: black;
+}
+
+.container {
+  height: 100vb;
+}
